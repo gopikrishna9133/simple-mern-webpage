@@ -5,10 +5,12 @@
   "main": "src/server/index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "npm run build && node src/server/index.js",
+    "start": "npm run build && node src/server/web1/index.js",
+    "startWeb2": "npm run build && node src/server/web2/index.js",
     "client": "webpack-dev-server --mode development --devtool inline-source-map --hot",
-    "server": "nodemon src/server/index.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "server1": "nodemon src/server/web1/index.js",
+    "server2": "nodemon src/server/web2/index.js",
+    "dev": "concurrently \"npm run server1\" \"npm run server2\" \"npm run client\""
   },
   "author": "Saad Zulfiqar",
   "license": "ISC",

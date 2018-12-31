@@ -1,7 +1,7 @@
 {
-  "name": "simple-react-full-stack-test-1",
+  "name": "mern-bilerplate",
   "version": "1.0.0",
-  "description": "Saad: Forked this and now using this",
+  "description": "Original post is at https://github.com/crsandeep/simple-react-full-stack",
   "main": "src/server/index.js",
   "scripts": {
     "build": "webpack --mode production",

@@ -12,7 +12,7 @@
     "server2": "nodemon src/server/web2/index.js",
     "dev": "concurrently \"npm run server1\" \"npm run server2\" \"npm run client\""
   },
-  "author": "Saad Zulfiqar",
+  "author": "krishna",
   "license": "ISC",
   "dependencies": {
     "babel-polyfill": "^6.26.0",

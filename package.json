@@ -1,5 +1,5 @@
 {
-  "name": "mern-bilerplate",
+  "name": "simple-mern-webpage",
   "version": "1.0.0",
   "description": "Original post is at https://github.com/crsandeep/simple-react-full-stack",
   "main": "src/server/index.js",
